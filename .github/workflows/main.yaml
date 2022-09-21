@@ -1,0 +1,13 @@
+on: [push]
+
+jobs:
+  test_point_deploy:
+    runs-on: ubuntu-latest
+    name: Install and test point-deploy-action
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install point
+        uses: ./ # Uses an action in the root directory

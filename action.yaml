@@ -1,0 +1,6 @@
+# action.yml
+name: "Deploy to Point"
+description: "Install Point CLI and deploy your zapp."
+runs:
+  using: "docker"
+  image: "Dockerfile"
