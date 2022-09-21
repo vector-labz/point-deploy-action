@@ -4,6 +4,8 @@ tar xzf point-v0.2.72-Linux-Debian-Ubuntu.tar.gz
 
 ls -la
 
-apt install ./point.deb
+sudo apt-get install ./point.deb
+
+point --version
 
 echo "Hello Pointers!"
