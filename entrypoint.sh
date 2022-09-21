@@ -4,7 +4,7 @@ tar xzf point-v0.2.72-Linux-Debian-Ubuntu.tar.gz
 
 ls -la
 
-sudo apt-get install ./point.deb
+apt-get install ./point.deb
 
 point --version
 
